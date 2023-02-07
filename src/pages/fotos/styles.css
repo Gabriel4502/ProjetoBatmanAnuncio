@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+.area-fotos{
+    width: 100%;
+    height: 800px;
+    background-color: black;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+background-image{
+    max-width: 100%;
+    height: auto;
+}
+.fotos-content{
+    width: 100%;
+    height: 800px;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 5px;
+}
+
+.nav-fotos{
+    width: 100%;
+}
+
+.imagem{
+    max-width: 100%;
+    height: 33vh;
+    color: white;
+    font-size: 19px;
+    cursor: pointer;
+    font-family: 'Kdam Thmor pro', sans-serif;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    background-size: cover;
+    background-position: center;
+    transition: 1.5s;
+}
+
+.imagem:hover{
+    transform: scale(1.5);
+}
+
+.fotos1{
+    background-image: url('https://portalpopline.com.br/wp-content/uploads/2022/02/batman-trilogia2.jpg');
+}
+
+.fotos2{
+    background-image: url('https://rollingstone.uol.com.br/media/_versions/zoe_kravitz_divulgacao_widelg.jpg');
+}
+
+.fotos3{
+    background-image: url('https://br.web.img3.acsta.net/r_654_368/newsv7/20/03/09/18/07/1567908.jpg');
+}
+
+.fotos4{
+    background-image: url('https://cinemacao.com/wp-content/uploads/2022/03/batman-2-1130x590.jpg');
+}
+
+.fotos5{
+    background-image: url('https://s2.glbimg.com/9u12OWz7wLHfObFTtZlXOGsNuM4=/smart/e.glbimg.com/og/ed/f/original/2022/01/25/screenshot_2022-01-25_at_09-00-35_the_batman_2022.png');
+}
+
+.fotos6{
+    background-image: url('https://img.olhardigital.com.br/wp-content/uploads/2022/02/the-batman-robert-pattinson.jpeg');
+}
+
+.fotos7{
+    background-image: url('https://comamorfrases.com/wp-content/uploads/2022/03/the-batman-2022-frases-700x447.jpg');
+}
+
+.fotos8{
+    background-image: url('https://mundoconectado.com.br/uploads/chamadas/batman-e-mulher-gato-em-novo-filme-imagem-divulgacao-warner-bros.jpg');
+}
+
+.fotos9{
+    background-image: url('https://www.cinemaescrito.com/wp-content/uploads/2022/03/the-batman-910x515.jpg');
+}
+
+.fotos5{
+    background-position: 50% 27%;
+}
+
+@media(max-width: 1024px){
+    .fotos-content{
+        grid-template-columns: repeat(1, 1fr);
+        height: 700vh;
+    }
+    .area-fotos{
+        height: 700vh;
+    }
+    .imagem{
+        height: auto;
+    }
+}

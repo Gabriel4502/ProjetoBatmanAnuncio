@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    height: 50px;
+    width: 100%;
+}
+
+span{
+    color: #fff;
+}

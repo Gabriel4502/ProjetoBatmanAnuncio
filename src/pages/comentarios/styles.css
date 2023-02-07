@@ -1,0 +1,82 @@
+html{
+    height: 670px;
+}
+h3{
+    font-family: 'Kdam Thmor pro', sans-serif;
+    color: #fff;
+    display: flex;
+    width: 50%;
+    padding: 20px 0;
+}
+
+#logo{
+    height: 90px;
+}
+
+#form-coment{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#comentarios{
+    width: 976px;
+    display: flex;
+    justify-content: center;
+
+}
+
+#botao{
+    width: 50%;
+}
+
+#form-coment{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nomeLabel{
+    width: 50%;
+}
+
+.emailLabel{
+    width: 50%;
+}
+
+#formulario{
+    display: flex;
+    justify-content: center;
+}
+.comentarios-container{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    width: 100%;
+    height: 625px;
+    background-color: rgb(87, 84, 84);
+    color: #fff;
+}
+
+
+#mensagem{
+    margin-top: 15px;
+    width: 50%;
+    height: 119px;
+}
+
+#nome{
+    height: 50px;
+    width: 50%;
+}
+
+#email{
+    width: 50%;
+    height: 50px;
+}
+
+label{
+    font-family: 'Kdam Thmor pro', sans-serif;
+}
+
