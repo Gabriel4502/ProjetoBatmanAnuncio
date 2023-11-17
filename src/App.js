@@ -47,7 +47,7 @@ function App() {
           <>
           <BrowserRouter>
             <Routes>
-              <Route path='/' element={<Home/>} />
+              <Route path='/ProjetoBatmanAnuncio' element={<Home/>} />
               <Route path='/contato' element={<Contato/>} />
               <Route path='/fotos' element={<Fotos/>} />
               <Route path='/comentarios' element={<Comentarios/>} />

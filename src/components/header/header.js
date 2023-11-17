@@ -9,7 +9,7 @@ function Header (){
             <img  id='logo' src ={Logo}/>
             <nav>
                 <ul>
-                    <Link style={{textDecoration: 'none'}} to={'/'} >
+                    <Link style={{textDecoration: 'none'}} to={'/ProjetoBatmanAnuncio'} >
                         <li>Home</li>
                     </Link>
                     <Link style={{textDecoration: 'none'}} to={'/fotos'}>
