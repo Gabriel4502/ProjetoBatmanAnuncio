@@ -4,7 +4,7 @@ import Header from "../../components/header/header";
 import '../fotos/styles.css'
 function Fotos (){
     return (
-        <div>
+        <div id="MainContainer">
             <Header/>
             <div className="area-fotos">
 
@@ -22,27 +22,27 @@ function Fotos (){
                     Jeffrey Wright
                 </div>
                 <div className="imagem fotos4">
-                    teste
+                    Curabitur
                 </div>
 
                 <div className="imagem fotos5">
-                    Teste2
+                    Feugiat 
                 </div>
 
                 <div className="imagem fotos6">
-                    teste3
+                    Ipsum 
                 </div>
 
                 <div className="imagem fotos7">
-                    teste4
+                    Lobortis 
                 </div>
 
                 <div className="imagem fotos8">
-                    teste5
+                    Faucibus 
                 </div>
 
                 <div className="imagem fotos9">
-                    teste6
+                    Scelerisque 
                 </div>
            </div>
 
