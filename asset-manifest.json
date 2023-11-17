@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/ProjetoBatmanAnuncio/static/css/main.e68392bf.css",
+    "main.js": "/ProjetoBatmanAnuncio/static/js/main.7ec3f0fc.js",
+    "static/media/batmanTrailer.mp4": "/ProjetoBatmanAnuncio/static/media/batmanTrailer.bfb722a54a1df873fa4e.mp4",
+    "static/media/logoEmail.png": "/ProjetoBatmanAnuncio/static/media/logoEmail.a49e015815e3ac6d2bd3.png",
+    "static/media/logo.jfif": "/ProjetoBatmanAnuncio/static/media/logo.2eb346db0503f647dbf3.jfif",
+    "static/media/logo.svg": "/ProjetoBatmanAnuncio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/ProjetoBatmanAnuncio/index.html",
+    "main.e68392bf.css.map": "/ProjetoBatmanAnuncio/static/css/main.e68392bf.css.map",
+    "main.7ec3f0fc.js.map": "/ProjetoBatmanAnuncio/static/js/main.7ec3f0fc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e68392bf.css",
+    "static/js/main.7ec3f0fc.js"
+  ]
+}
